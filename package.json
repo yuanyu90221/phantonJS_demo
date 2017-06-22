@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "phantomjs --version"
+    "test": "phantomjs --version",
+    "loading-test": "phantomjs ./src/loadspeed.js https://www.google.com.tw"
   },
   "keywords": [],
   "author": "",
